@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UFT-8">
+        <title>Contatos - Barbearia Alura</title>
+        <link rel="stylesheet" href="../reset.css">
+        <link rel="stylesheet" href="../style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="/produtos/logo.png"></h1>
+                
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="">Contatos</a></li>
+                       
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+            <form>
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" class="input-padrao">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" class="input-padrao">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="30" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+                <div>
+                    <p>Como prefere o nosso contato</p>
+                    <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email"class="label-space">Email</label>
+                    
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone" class="label-space">Telefone</label>
+                    
+                    <label for="radio-whatsapp" ><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" class="label-space">Whatsapp</label>   
+                </div>
+
+                <label class="checkbox"><input type="checkbox" class="label-space">Gostaria de receber nossas novidades por email?</label>
+
+
+                <input type="submit" value="Enviar Formulário">
+                
+            </form>
+        </main>
+
+        <footer>
+            <img src ="../produtos/logo-branco.png">
+            <p class="copyright"> &copy;  Copyright Estevao Reis - 2021</p>
+        </footer>
+    </body>
+
+</html>
