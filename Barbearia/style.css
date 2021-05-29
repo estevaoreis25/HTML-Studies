@@ -81,7 +81,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url("/produtos/bg.jpg");
+    background: url("bg.jpg");
     padding: 40px 0;
 
 }
@@ -153,4 +153,39 @@ thead {
 td, th {
     border: 1px solid #000;
     padding: 10px 15px;
+}
+
+/*CSS da página inicial*/
+.banner {
+    width: 100%;
+    height:500px;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imgBeneficios {
+    width: 60%
+}
+
+.utensilios {
+    width:190px;
+    float: left;
+    margin:0 20px 20px 0;
 }
