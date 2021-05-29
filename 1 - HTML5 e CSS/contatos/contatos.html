@@ -10,7 +10,7 @@
     <body>
         <header>
             <div class="caixa">
-                <h1><img src="/produtos/logo.png"></h1>
+                <h1><img src="/produtos/logo.png" alt="logo-barbearia-alura"></h1>
                 
                 <nav>
                     <ul>
@@ -25,37 +25,67 @@
         
         <main>
             <form>
-                <label for="nomesobrenome">Nome e Sobrenome</label>
-                <input type="text" id="nomesobrenome" class="input-padrao">
+                <fieldset>
+                    <label for="nomesobrenome" >Nome e Sobrenome</label>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+    
+                    <label for="email" >Email</label>
+                    <input type="email" id="email" class="input-padrao" required placeholder="exemplo@email.com">
+    
+                    <label for="telefone" >Telefone</label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXX-XXXX">
+    
+                    <label for="mensagem" >Mensagem</label>
+                    <textarea cols="30" rows="10" id="mensagem" class="input-padrao" required></textarea>
+                </fieldset>
 
-                <label for="email">Email</label>
-                <input type="text" id="email" class="input-padrao">
-
-                <label for="telefone">Telefone</label>
-                <input type="text" id="telefone" class="input-padrao">
-
-                <label for="mensagem">Mensagem</label>
-                <textarea cols="30" rows="10" id="mensagem" class="input-padrao"></textarea>
-
-                <div>
-                    <p>Como prefere o nosso contato</p>
-                    <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email"class="label-space">Email</label>
+                <fieldset>
+                    <legend >Como prefere o nosso contato</legend>
+                    <label for="radio-email" > <input type="radio" name="contato" value="email" id="radio-email"class="label-space">Email</label>
                     
-                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone" class="label-space">Telefone</label>
+                    <label for="radio-telefone" ><input type="radio" name="contato" value="telefone" id="radio-telefone" class="label-space">Telefone</label>
                     
-                    <label for="radio-whatsapp" ><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" class="label-space">Whatsapp</label>   
-                </div>
+                    <label for="radio-whatsapp" ><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" class="label-space" checked>Whatsapp</label>   
 
-                <label class="checkbox"><input type="checkbox" class="label-space">Gostaria de receber nossas novidades por email?</label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend > Qual horário prefere ser atendido</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+                
+                <label class="checkbox" ><input type="checkbox" class="label-space" checked>Gostaria de receber nossas novidades por email?</label>
 
+                <input type="submit" value="Enviar Formulário" class="enviar">
+                <table>
+                    <tr>
+                        <td>Dia da Semana</td>
+                        <td>Horário</td>
+                    </tr>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8hs ~ 20hs</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8hs ~ 20hs</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8hs ~ 20hs</td>
+                    </tr>
 
-                <input type="submit" value="Enviar Formulário">
+                </table>
                 
             </form>
         </main>
 
         <footer>
-            <img src ="../produtos/logo-branco.png">
+            <img src ="../produtos/logo-branco.png"  alt="logo-barbearia-alura">
             <p class="copyright"> &copy;  Copyright Estevao Reis - 2021</p>
         </footer>
     </body>
