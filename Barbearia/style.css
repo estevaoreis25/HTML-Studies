@@ -268,4 +268,55 @@ td, th {
     .lista-beneficios, .img-beneficios {
         width:100%;
     }
+
+
+    main .produtos {
+        width: auto;
+    }
+
+    .produtos li {
+        display: block;
+        width: 80%;
+        margin: 2em auto;
+    }
+
+
+    form label {
+        margin: 0 0 0 1em;
+    }
+
+    .input-padrao {
+        width: 80%;
+        margin: 1em auto 2em;
+    }
+
+    .label-space {
+        margin: 0.6em;
+    }
+    form legend {
+        padding: 1em;
+    }
+
+    form select {
+        display: block;
+        width: 90%;
+        margin: 0 auto 1em;
+        font-size: 1em;
+        padding: 0.5em;
+    }
+
+    .checkbox {
+        margin-left: 1em;
+    }
+    .enviar {
+        width: auto;
+        display: block;
+        margin: auto;
+        padding: 1em;
+    }
+
+    table {
+        
+        margin: 1em auto;
+    }
 }
