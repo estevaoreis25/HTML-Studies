@@ -95,10 +95,6 @@ footer {
     margin: 20px 0 0; 
 }
 
-main {
-
-}
-
 form {
     margin: 40px 0;
 }
@@ -168,6 +164,8 @@ td, th {
     font-size: 2em;
     margin: 0 0 1em;
     clear:left;
+    color: rgba(0, 0, 0, 0.7);
+    text-shadow: 3px 3px rgba(94, 9, 241, 0.3);
 }
 
 .principal {
@@ -200,7 +198,16 @@ td, th {
 }
 
 .img-beneficios {
-    width: 60%
+    width: 60%;
+    opacity: 1;
+    transition: 500ms;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px #000;
+}
+
+.img-beneficios:hover {
+    opacity: 0.6;
+    transform: rotate(5deg);
 }
 
 .utensilios {
