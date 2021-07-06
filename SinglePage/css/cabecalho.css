@@ -1,0 +1,31 @@
+.cabecalho {
+  position: relative;
+}
+.cabecalho-logo {
+  position: absolute;
+  width: 7vw;
+  height: 7vw;
+  left: 3%;
+  top: 5%;
+  background: black;
+  border-radius: 50%;
+  opacity: 90%;
+}
+.banner {
+  height: 40vw;
+  width: 100%;
+}
+
+.cabecalho-texto{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(171, 166, 166);
+  font-size: 2vw;
+  width: 80%;
+}
+.cabecalho-titulo {
+  font-size: 4vw;
+  text-align: center;
+}
