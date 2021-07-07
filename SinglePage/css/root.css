@@ -1,3 +1,6 @@
+:root{
+  --cor-primaria-texto: #fff;
+}
 body{
   font-family: 'Raleway', sans-serif;
 }

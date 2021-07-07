@@ -1,5 +1,6 @@
 .cabecalho {
   position: relative;
+  display: flex;
 }
 .cabecalho-logo {
   position: absolute;
@@ -21,11 +22,40 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(171, 166, 166);
+  color: rgb(0, 0, 0);
   font-size: 2vw;
   width: 80%;
 }
 .cabecalho-titulo {
   font-size: 4vw;
   text-align: center;
+}
+
+.cabecalho-nav{
+  display: flex;
+  width: 90%;
+  margin-top: 2.5%;
+  justify-content:flex-end;
+  align-items: center;
+  position: absolute;
+  list-style: none;
+}
+
+.cabecalho-nav li {
+  display: inline-block;
+  padding: 0 20px;
+  list-style: none;
+  
+}
+.cabecalho-nav li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  transition: all .3s ease 0s;
+  font-size: 18px;
+
+}
+
+.cabecalho-nav li a:hover{
+  color: #8605d6; 
 }
